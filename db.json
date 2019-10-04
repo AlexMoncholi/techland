@@ -1,0 +1,305 @@
+{
+  "emails": [
+    {
+      "id": 1,
+      "selected": false,
+      "readed": false,
+      "type": 1,
+      "title": "Presupuesto para App",
+      "mailFrom": "pollastredelmercat@fjafj.com",
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a porttitor massa. Aenean nisl ante, mattis vitae ipsum et, efficitur lacinia purus. Sed at orci ullamcorper diam pulvinar rutrum. Curabitur finibus libero ac iaculis gravida. Quisque quis risus sit amet est consectetur aliquet. Etiam tincidunt tellus in augue semper mollis. Morbi faucibus bibendum lacus, vel pretium odio cursus sed. Sed nibh tortor, condimentum nec ipsum vel, cursus gravida augue. Vivamus vel sagittis tortor. Nulla facilisi. Donec suscipit maximus ante, et interdum lorem congue vitae. Pellentesque ultrices ornare purus nec iaculis. Sed ac tortor elementum, vestibulum sem et, consectetur orci. Fusce elementum, libero ut tempor tincidunt, arcu augue consequat augue, a aliquet ante ex malesuada dui. Phasellus luctus molestie nulla nec pretium.</p><p>Nullam tincidunt finibus nisl at mattis. Nullam cursus blandit urna, id hendrerit orci gravida id. Donec posuere mauris lacus, vel tincidunt quam posuere non. Phasellus congue, ipsum in condimentum semper, ipsum arcu maximus lorem, id placerat metus libero sed lectus. Cras fringilla pharetra nunc, vel auctor lacus euismod et. Pellentesque hendrerit facilisis lacus at lacinia. Nam at purus non orci imperdiet dictum eget vitae enim. Etiam posuere lacus leo, in mollis odio aliquam ac. Donec tempus nisi quam, nec porta metus pharetra aliquam. Sed a posuere massa, quis dapibus leo. Phasellus est leo, placerat sed feugiat sit amet, dignissim quis nisi. Mauris tempus consectetur tellus quis convallis.</p>",
+      "dificulty": 1,
+      "resourcesNeeded": [
+        {
+          "numberEmployees": 1,
+          "resources": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "selected": false,
+      "readed": true,
+      "type": 2,
+      "title": "Contrato de Web",
+      "mailFrom": "chiquitosoftware@fjafj.com",
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate ex diam, et convallis augue gravida eleifend. Aliquam erat volutpat. Mauris gravida, neque nec hendrerit cursus, purus eros pulvinar nulla, vel malesuada est diam eget tellus. Cras ultricies ullamcorper ultricies. Praesent tristique felis pharetra, vehicula lacus eu, molestie orci. Vestibulum sollicitudin ligula nunc, eu maximus magna imperdiet et. Aliquam convallis vulputate aliquam.</p><p>Donec ut lacus in augue tempus feugiat quis vitae leo. Mauris vel pulvinar enim. Integer non viverra lectus. Curabitur posuere auctor aliquam. Quisque tempor dapibus convallis. Donec ornare metus risus, hendrerit mollis nunc dictum malesuada. In vulputate, eros nec vestibulum fringilla, mauris ipsum consectetur libero, vitae efficitur orci tellus id elit.</p>",
+      "dificulty": -1
+    },
+    {
+      "id": 3,
+      "selected": false,
+      "readed": false,
+      "type": 3,
+      "data": {
+        "name": "Francesco Paglia",
+        "gender": "male",
+        "avatar": 1
+      },
+      "title": "Currículum de Reinaldo de Francia",
+      "mailFrom": "reideFran@fjafj.com",
+      "text": "hasdjhsadkjashdkjhaskjdhaskjdh a skhas kjhdsakj haskj aksjd haksjdh kasjdhaksh daksd",
+      "dificulty": -1
+    },
+    {
+      "id": 1,
+      "selected": false,
+      "readed": true,
+      "type": 1,
+      "title": "Presupuesto para App",
+      "mailFrom": "pollastredelmercat@fjafj.com",
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a porttitor massa. Aenean nisl ante, mattis vitae ipsum et, efficitur lacinia purus. Sed at orci ullamcorper diam pulvinar rutrum. Curabitur finibus libero ac iaculis gravida. Quisque quis risus sit amet est consectetur aliquet. Etiam tincidunt tellus in augue semper mollis. Morbi faucibus bibendum lacus, vel pretium odio cursus sed. Sed nibh tortor, condimentum nec ipsum vel, cursus gravida augue. Vivamus vel sagittis tortor. Nulla facilisi. Donec suscipit maximus ante, et interdum lorem congue vitae. Pellentesque ultrices ornare purus nec iaculis. Sed ac tortor elementum, vestibulum sem et, consectetur orci. Fusce elementum, libero ut tempor tincidunt, arcu augue consequat augue, a aliquet ante ex malesuada dui. Phasellus luctus molestie nulla nec pretium.</p><p>Nullam tincidunt finibus nisl at mattis. Nullam cursus blandit urna, id hendrerit orci gravida id. Donec posuere mauris lacus, vel tincidunt quam posuere non. Phasellus congue, ipsum in condimentum semper, ipsum arcu maximus lorem, id placerat metus libero sed lectus. Cras fringilla pharetra nunc, vel auctor lacus euismod et. Pellentesque hendrerit facilisis lacus at lacinia. Nam at purus non orci imperdiet dictum eget vitae enim. Etiam posuere lacus leo, in mollis odio aliquam ac. Donec tempus nisi quam, nec porta metus pharetra aliquam. Sed a posuere massa, quis dapibus leo. Phasellus est leo, placerat sed feugiat sit amet, dignissim quis nisi. Mauris tempus consectetur tellus quis convallis.</p>",
+      "dificulty": 2
+    }
+  ],
+  "office": [
+    {
+      "id": 1,
+      "positions": 6,
+      "resources": [
+        {
+          "id": 289,
+          "fk_resource": 4,
+          "name": "Escritorio con ordenador",
+          "employee": null,
+          "position": "00",
+          "image": "table_computer.png",
+          "css_char": "furniture_",
+          "needs_employee": true
+        },
+        {
+          "id": 166,
+          "fk_resource": 3,
+          "name": "Máquina de vending",
+          "employee": null,
+          "position": "11",
+          "image": "food_machine.png",
+          "image_back": "food_machine_back.png",
+          "css_char": "food_",
+          "needs_employee": false
+        },
+        {
+          "id": 553,
+          "fk_resource": 4,
+          "name": "Escritorio con ordenador",
+          "employee": 1,
+          "position": "01",
+          "image": "table_computer.png",
+          "css_char": "furniture_",
+          "needs_employee": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "positions": 6,
+      "resources": []
+    }
+  ],
+  "employee": [
+    {
+      "id": 1,
+      "name": "Alejandro Moncholí García",
+      "image": "./img/avatars/male/2.jpg",
+      "age": 36,
+      "experience": 4,
+      "salary": 1200,
+      "gender": "Masculino",
+      "workplace": "01",
+      "happyness": 3,
+      "project": null,
+      "office": 1
+    },
+    {
+      "id": 2,
+      "name": "Rocío Lillo",
+      "image": "./img/avatars/female/1.jpg",
+      "age": 32,
+      "experience": 1.5,
+      "salary": 900,
+      "gender": "Femenino",
+      "workplace": "",
+      "happyness": 1,
+      "project": null,
+      "office": 0
+    },
+    {
+      "id": 3,
+      "name": "Antonio Robles",
+      "image": "./img/avatars/male/1.jpg",
+      "age": 32,
+      "experience": 2.5,
+      "salary": 1000,
+      "gender": "Masculino",
+      "workplace": "",
+      "happyness": 1,
+      "project": null,
+      "office": 0
+    }
+  ],
+  "works": [
+    {
+      "id": 1,
+      "type": 1,
+      "companyName": "Medicine Schmedicine",
+      "title": "Web promocional para crema antiarrugas",
+      "mail": "contact@schmedicine.com",
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a porttitor massa. Aenean nisl ante, mattis vitae ipsum et, efficitur lacinia purus. Sed at orci ullamcorper diam pulvinar rutrum. Curabitur finibus libero ac iaculis gravida. Quisque quis risus sit amet est consectetur aliquet. Etiam tincidunt tellus in augue semper mollis. Morbi faucibus bibendum lacus, vel pretium odio cursus sed. Sed nibh tortor, condimentum nec ipsum vel, cursus gravida augue. Vivamus vel sagittis tortor. Nulla facilisi. Donec suscipit maximus ante, et interdum lorem congue vitae. Pellentesque ultrices ornare purus nec iaculis. Sed ac tortor elementum, vestibulum sem et, consectetur orci. Fusce elementum, libero ut tempor tincidunt, arcu augue consequat augue, a aliquet ante ex malesuada dui. Phasellus luctus molestie nulla nec pretium.</p><p>Nullam tincidunt finibus nisl at mattis. Nullam cursus blandit urna, id hendrerit orci gravida id. Donec posuere mauris lacus, vel tincidunt quam posuere non. Phasellus congue, ipsum in condimentum semper, ipsum arcu maximus lorem, id placerat metus libero sed lectus. Cras fringilla pharetra nunc, vel auctor lacus euismod et. Pellentesque hendrerit facilisis lacus at lacinia. Nam at purus non orci imperdiet dictum eget vitae enim. Etiam posuere lacus leo, in mollis odio aliquam ac. Donec tempus nisi quam, nec porta metus pharetra aliquam. Sed a posuere massa, quis dapibus leo. Phasellus est leo, placerat sed feugiat sit amet, dignissim quis nisi. Mauris tempus consectetur tellus quis convallis.</p>",
+      "dificulty": 0.5,
+      "resourcesNeeded": [
+        {
+          "numberEmployees": 1,
+          "resources": [
+            4
+          ]
+        }
+      ],
+      "status": 0,
+      "timeToDo": 240,
+      "endDate": "15/06/2022"
+    },
+    {
+      "id": 2,
+      "type": 1,
+      "companyName": "Medicine Schmedicine",
+      "title": "Web promocional para crema antiarrugas",
+      "mail": "contact@schmedicine.com",
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a porttitor massa. Aenean nisl ante, mattis vitae ipsum et, efficitur lacinia purus. Sed at orci ullamcorper diam pulvinar rutrum. Curabitur finibus libero ac iaculis gravida. Quisque quis risus sit amet est consectetur aliquet. Etiam tincidunt tellus in augue semper mollis. Morbi faucibus bibendum lacus, vel pretium odio cursus sed. Sed nibh tortor, condimentum nec ipsum vel, cursus gravida augue. Vivamus vel sagittis tortor. Nulla facilisi. Donec suscipit maximus ante, et interdum lorem congue vitae. Pellentesque ultrices ornare purus nec iaculis. Sed ac tortor elementum, vestibulum sem et, consectetur orci. Fusce elementum, libero ut tempor tincidunt, arcu augue consequat augue, a aliquet ante ex malesuada dui. Phasellus luctus molestie nulla nec pretium.</p><p>Nullam tincidunt finibus nisl at mattis. Nullam cursus blandit urna, id hendrerit orci gravida id. Donec posuere mauris lacus, vel tincidunt quam posuere non. Phasellus congue, ipsum in condimentum semper, ipsum arcu maximus lorem, id placerat metus libero sed lectus. Cras fringilla pharetra nunc, vel auctor lacus euismod et. Pellentesque hendrerit facilisis lacus at lacinia. Nam at purus non orci imperdiet dictum eget vitae enim. Etiam posuere lacus leo, in mollis odio aliquam ac. Donec tempus nisi quam, nec porta metus pharetra aliquam. Sed a posuere massa, quis dapibus leo. Phasellus est leo, placerat sed feugiat sit amet, dignissim quis nisi. Mauris tempus consectetur tellus quis convallis.</p>",
+      "dificulty": 2.5,
+      "resourcesNeeded": [
+        {
+          "numberEmployees": 2,
+          "resources": [
+            4,
+            4,
+            6
+          ]
+        }
+      ],
+      "status": 0,
+      "timeToDo": 240,
+      "endDate": "15/06/2022"
+    },
+    {
+      "id": 3,
+      "type": 1,
+      "companyName": "Medicine Schmedicine",
+      "title": "Web promocional para crema antiarrugas",
+      "mail": "contact@schmedicine.com",
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a porttitor massa. Aenean nisl ante, mattis vitae ipsum et, efficitur lacinia purus. Sed at orci ullamcorper diam pulvinar rutrum. Curabitur finibus libero ac iaculis gravida. Quisque quis risus sit amet est consectetur aliquet. Etiam tincidunt tellus in augue semper mollis. Morbi faucibus bibendum lacus, vel pretium odio cursus sed. Sed nibh tortor, condimentum nec ipsum vel, cursus gravida augue. Vivamus vel sagittis tortor. Nulla facilisi. Donec suscipit maximus ante, et interdum lorem congue vitae. Pellentesque ultrices ornare purus nec iaculis. Sed ac tortor elementum, vestibulum sem et, consectetur orci. Fusce elementum, libero ut tempor tincidunt, arcu augue consequat augue, a aliquet ante ex malesuada dui. Phasellus luctus molestie nulla nec pretium.</p><p>Nullam tincidunt finibus nisl at mattis. Nullam cursus blandit urna, id hendrerit orci gravida id. Donec posuere mauris lacus, vel tincidunt quam posuere non. Phasellus congue, ipsum in condimentum semper, ipsum arcu maximus lorem, id placerat metus libero sed lectus. Cras fringilla pharetra nunc, vel auctor lacus euismod et. Pellentesque hendrerit facilisis lacus at lacinia. Nam at purus non orci imperdiet dictum eget vitae enim. Etiam posuere lacus leo, in mollis odio aliquam ac. Donec tempus nisi quam, nec porta metus pharetra aliquam. Sed a posuere massa, quis dapibus leo. Phasellus est leo, placerat sed feugiat sit amet, dignissim quis nisi. Mauris tempus consectetur tellus quis convallis.</p>",
+      "dificulty": 4.5,
+      "resourcesNeeded": [
+        {
+          "numberEmployees": 3,
+          "resources": [
+            4,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "status": 0,
+      "timeToDo": 340,
+      "endDate": "15/06/2022"
+    }
+  ],
+  "furniture": [
+    {
+      "id": 1,
+      "name": "Comida",
+      "elements": [
+        {
+          "id": 1,
+          "name": "Cafetera",
+          "price": 100,
+          "image": "table_coffee.png",
+          "image_back": "table_coffee.png",
+          "css_char": "furniture_",
+          "needs_employee": false
+        },
+        {
+          "id": 2,
+          "name": "Maquina de café para oficina",
+          "price": 500,
+          "image": "coffee_machine.png",
+          "image_back": "coffee_machine_back.png",
+          "css_char": "food_",
+          "needs_employee": false
+        },
+        {
+          "id": 3,
+          "name": "Máquina de vending",
+          "price": 1200,
+          "image": "food_machine.png",
+          "image_back": "food_machine_back.png",
+          "css_char": "food_",
+          "needs_employee": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Oficina",
+      "elements": [
+        {
+          "id": 4,
+          "name": "Escritorio con ordenador",
+          "price": 2400,
+          "image": "table_computer.png",
+          "css_char": "furniture_",
+          "needs_employee": true
+        },
+        {
+          "id": 5,
+          "name": "Escritorio simple",
+          "price": 1000,
+          "image": "table_3.png",
+          "css_char": "furniture_",
+          "needs_employee": true
+        },
+        {
+          "id": 6,
+          "name": "Armario de suministros",
+          "price": 800,
+          "image": "office_supplies_cabinet.png",
+          "image_back": "office_supplies_cabinet_back.png",
+          "css_char": "food_",
+          "needs_employee": false
+        },
+        {
+          "id": 7,
+          "name": "Impresora",
+          "price": 200,
+          "image": "table_computer.png",
+          "css_char": "furniture_",
+          "needs_employee": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Decoración",
+      "elements": [
+        {
+          "id": 8,
+          "name": "Planta",
+          "price": 20,
+          "image": "table_computer.png",
+          "css_char": "furniture_",
+          "needs_employee": false
+        },
+        {
+          "id": 9,
+          "name": "Cuadro",
+          "price": 30,
+          "image": "table_computer.png",
+          "css_char": "furniture_",
+          "needs_employee": false
+        }
+      ]
+    }
+  ]
+}
